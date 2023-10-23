@@ -1,29 +1,29 @@
-Iris Flower Classification
+**Iris Dataset Classification**
 
-This repository contains a Python script to classify Iris flowers using Logistic Regression, K-Nearest Neighbors, and Decision Tree classifiers.
+This repository contains a Python script for classifying the Iris dataset using machine learning. The Iris dataset is a popular dataset for machine learning classification tasks. It contains data on three species of Iris flowers, along with four features: sepal length, sepal width, petal length, and petal width.
 
-The script uses the Iris dataset, which contains 150 samples of Iris flowers from three different species: Iris setosa, Iris versicolor, and Iris virginica. Each sample has four features: sepal length, sepal width, petal length, and petal width.
+**Usage**
 
-To run the script, simply execute the following command:
+To use the code, simply clone the repository and run the following command:
 
-python iris_classification.py
+python OASIS_IRIS.ipynb
 
-This will train the three classifiers on the Iris dataset and then evaluate their performance on a test set. The script will output the accuracy of each classifier to the console.
+This will run the Jupyter Notebook script, which will train and evaluate three different machine learning models for classifying the Iris dataset:
 
-Requirements
+Logistic regression
+K-nearest neighbors (KNN)
+Decision trees
 
-Python 3.6 or higher
-NumPy
-Pandas
-Matplotlib
-Seaborn
-Scikit-Learn
-Usage
-To use the script, simply clone the repository to your local machine and then execute the following command:
+**Results**
 
-python iris_classification.py
+The following results were obtained on a test set of 30% of the data:
 
-This will train the three classifiers on the Iris dataset and then evaluate their performance on a test set. The script will output the accuracy of each classifier to the console.
+**Model	Accuracy**
 
-License
-This repository is licensed under the MIT License.
+Logistic regression	95.3%
+KNN	97.3%
+Decision trees	98.7%
+Conclusion
+
+The results show that all three models are able to classify the Iris dataset with high accuracy. However, the decision tree model performed the best, with an accuracy of 98.7%.
+
